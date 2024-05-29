@@ -31,7 +31,7 @@ const MapComponent = () => {
   }, []);
 
   return (
-    <div ref={mapContainerRef} style={{ width: "100%", height: "500px" }} />
+    <div ref={mapContainerRef} style={{ width: "100%", height: "100vh" }} />
   );
 };
 

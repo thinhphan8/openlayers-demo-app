@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import MapComponent from './component/MapComponent';
+import logo from "./logo.svg";
+import "./App.css";
+import MapComponent from "./component/MapComponent";
 
 function App() {
   return (
@@ -21,8 +21,14 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <h1>Ứng dụng React và OpenLayers</h1>
-      <MapComponent/>
+      <h1
+        style={{
+          textAlign: "center",
+        }}
+      >
+        React & OpenLayers Demo App
+      </h1>
+      <MapComponent />
     </div>
   );
 }
